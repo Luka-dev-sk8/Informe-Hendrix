@@ -11,3 +11,4 @@ document.addEventListener('click', function(e) {
         barra.classList.remove('click');
   }
 });
+
