@@ -7,15 +7,28 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(imagenes/fondo.png);/*This approach raises three key questions:
-    Rapid urban growth increases the demand for housing.
-    The satellite data provided by NASA may be used to map urban sprawl, 
-     Bengaluru is one of the fastest-growing cities in India, and it is currently facing severe environmental challenges due to its vertiginous urban growth and the increasing demand of water resources.
-    while air pollution spreads throughout the city uncontrolled.
-    This issue is accompanied by water scarcity, flooding caused by inadequate drainage, and a lack of effective environmental policies, all of which degrade quality of life for the residents of the city. Locals can help improve this situation by sorting and recycling waste, reducing the use of disposable plastics
-    The government, in turn, could promote
-    would allow the anticipation
-    */
+    background-image: url(imagenes/fondo.png);
+
+}
+#titulo{
+    color: white;
+    background-color: rgb(73, 1, 1);
+    padding: 5%;
+    border-radius: 10px;
+    width: 80%;
+    
+    font-size: larger;
+    text-align: center;
+    box-shadow: 0 0 30px 0 red;
+    
+}
+#image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
 }
 header{
     display: flex;
@@ -78,11 +91,11 @@ div{
 }
 #present{
     height: auto;
-    min-width: 60vw;
-    max-width: 60vw;
+    min-width: 70vw;
+    max-width: 70vw;
     background-color: unset;
     box-shadow: 0 0 20px 0 #113158;
-    border-radius: 0 0 50% 50%;
+    border-radius: 20px 20px 0 0;
 }
 button, a{
     border: unset;   
