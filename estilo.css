@@ -7,19 +7,19 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(imagenes/fondo.png);
+    background-image: url(imagenes/gr.jpg);
 
 }
 #titulo{
     color: white;
-    background-color: rgb(73, 1, 1);
+    background-color: rgb(103, 131, 1);
     padding: 5%;
     border-radius: 10px;
     width: 80%;
     
     font-size: larger;
     text-align: center;
-    box-shadow: 0 0 30px 0 red;
+    box-shadow: 0 0 30px 0 rgb(10, 150, 40);
     
 }
 #image{
@@ -35,7 +35,7 @@ header{
     align-items: center;
     justify-content:space-evenly;
     width: 100%;
-    background-color: #001127;
+    background-color: #02c75b;
     color: white;
     text-shadow: 0 0 20px;
     position: sticky;
@@ -49,7 +49,7 @@ header{
     border-radius: 20px;
 }
 #introduccion, #comunidad{
-    background-color: black;
+    background-color: rgb(62, 110, 53);
     color: white;
 }
 div{
@@ -94,7 +94,7 @@ div{
     min-width: 70vw;
     max-width: 70vw;
     background-color: unset;
-    box-shadow: 0 0 20px 0 #113158;
+    box-shadow: 0 0 20px 0 #fdfdfd;
     border-radius: 20px 20px 0 0;
 }
 button, a{
@@ -142,7 +142,7 @@ footer{
     align-items: center;
     justify-content: end;
     color: white;
-    background: linear-gradient(to bottom, #00050B, black);
+    background: linear-gradient(to bottom, #04be23, rgb(99, 99, 99));
     height: 15vh;
     width: 100%;
 }
